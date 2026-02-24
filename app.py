@@ -8,7 +8,7 @@ import numpy as np
 st.set_page_config(page_title="ระบบคัดแยกชนิดงู เชียงราย", page_icon="🐍")
 
 st.title("🐍 ระบบคัดแยกชนิดของงู (เชียงราย)")
-st.write("Mini Project โดย ด.ช.ภัทชภณ และ ด.ญ.ณกัญญา")
+st.write("Mini Project โดย ด.ช.ภัทชภณ จันทร์ใจ และ ด.ญ.ณกัญญา ชมภูรักษ์")
 
 # --- 1. โหลดโมเดล (โหลดครั้งเดียว) ---
 @st.cache_resource
@@ -68,3 +68,4 @@ if img_file:
         st.info("👤 สถานะ: ไม่พบงู หรือเป็นมนุษย์")
     else:
         st.warning("⚠️ ไม่สามารถระบุได้ชัดเจน")
+
